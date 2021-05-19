@@ -6,7 +6,7 @@
 		
 			<class name="TestCases.VerifyGoogleSearchFunctionalityWithTestNG2">
 				<methods>
-					<exclude name="GoogleSearch2"></exclude>
+					<exclude name="GoogleSearch1"></exclude>
 				</methods>
 			</class>
 		</classes>
