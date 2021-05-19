@@ -49,11 +49,11 @@ public class VerifyGoogleSearchFunctionalityWithTestNG2 {
 
 	}
 	
-	@AfterTest
-	public void TearDown() {
+	//@AfterTest
+	//public void TearDown() {
 
-		driver.close();
-		driver.quit();
-	}
+		//driver.close();
+		//driver.quit();
+//	}
 
 }

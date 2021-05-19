@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14244" started-at="2021-05-17T20:23:14 IST" finished-at="2021-05-17T20:23:28 IST">
+  <suite name="Suite" duration-ms="7040" started-at="2021-05-19T11:56:48 IST" finished-at="2021-05-19T11:56:55 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14244" started-at="2021-05-17T20:23:14 IST" finished-at="2021-05-17T20:23:28 IST">
+    <test name="Test" duration-ms="7040" started-at="2021-05-19T11:56:48 IST" finished-at="2021-05-19T11:56:55 IST">
       <class name="TestCases.VerifyGoogleSearchFunctionalityWithTestNG2">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:TestCases.VerifyGoogleSearchFunctionalityWithTestNG2@7ce6a65d]" name="SetUp" is-config="true" duration-ms="6456" started-at="2021-05-17T20:23:14 IST" finished-at="2021-05-17T20:23:20 IST">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:TestCases.VerifyGoogleSearchFunctionalityWithTestNG2@7ce6a65d]" name="SetUp" is-config="true" duration-ms="5021" started-at="2021-05-19T11:56:48 IST" finished-at="2021-05-19T11:56:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="GoogleSearch2()[pri:0, instance:TestCases.VerifyGoogleSearchFunctionalityWithTestNG2@7ce6a65d]" name="GoogleSearch2" duration-ms="7375" started-at="2021-05-17T20:23:20 IST" finished-at="2021-05-17T20:23:28 IST">
+        <test-method status="PASS" signature="GoogleSearch2()[pri:0, instance:TestCases.VerifyGoogleSearchFunctionalityWithTestNG2@7ce6a65d]" name="GoogleSearch2" duration-ms="1527" started-at="2021-05-19T11:56:53 IST" finished-at="2021-05-19T11:56:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GoogleSearch2 -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.VerifyGoogleSearchFunctionalityWithTestNG2@7ce6a65d]" name="TearDown" is-config="true" duration-ms="337" started-at="2021-05-17T20:23:28 IST" finished-at="2021-05-17T20:23:28 IST">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.VerifyGoogleSearchFunctionalityWithTestNG2@7ce6a65d]" name="TearDown" is-config="true" duration-ms="325" started-at="2021-05-19T11:56:54 IST" finished-at="2021-05-19T11:56:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
