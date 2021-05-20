@@ -5,7 +5,6 @@
     <classes>
       <class name="TestCases.VerifyGoogleSearchFunctionalityWithTestNG2">
         <methods>
-          <include name="TearDown"/>
           <include name="SetUp"/>
           <include name="GoogleSearch1"/>
         </methods>
