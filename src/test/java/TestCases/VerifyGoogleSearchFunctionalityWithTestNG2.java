@@ -32,7 +32,7 @@ public class VerifyGoogleSearchFunctionalityWithTestNG2 {
 
 		GoogleSearchPage GS = new GoogleSearchPage(driver);
 
-		GS.provideTextInSearchTextBox("Testing");
+		//GS.provideTextInSearchTextBox("Testing");
 		GS.clickOnSearchButton();
 
 	}
@@ -44,7 +44,7 @@ public class VerifyGoogleSearchFunctionalityWithTestNG2 {
 
 		GoogleSearchPage GS = new GoogleSearchPage(driver);
 
-		GS.provideTextInSearchTextBox("abcd");
+		//GS.provideTextInSearchTextBox("abcd");
 
 
 	}

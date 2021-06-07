@@ -48,7 +48,7 @@ public class ExtentReportWithTesNG {
 
 		GoogleSearchPage GS = new GoogleSearchPage(driver);
 
-		GS.provideTextInSearchTextBox("Testing");
+		//GS.provideTextInSearchTextBox("Testing");
 
 
 		test1.pass("Provided the text");

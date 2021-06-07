@@ -1,6 +1,7 @@
 package WebPages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
@@ -18,11 +19,16 @@ public class GoogleSearchPage {
 		this.driver = driver;
 		
 	}
-	public  void provideTextInSearchTextBox(String someText)
+	public  void provideTextInSearchTextBox()
 	
 	{
 		
-		driver.findElement(textbox_search).sendKeys(someText);
+		
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		
+		js.executeScript("document.getElementByName('q').value='ABC'");
+		
+		//driver.findElement(textbox_search).sendKeys(someText);
 		
 		
 	}

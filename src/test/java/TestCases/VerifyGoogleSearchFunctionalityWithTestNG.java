@@ -31,7 +31,7 @@ public class VerifyGoogleSearchFunctionalityWithTestNG {
 
 		GoogleSearchPage GS = new GoogleSearchPage(driver);
 
-		GS.provideTextInSearchTextBox("Testing");
+		GS.provideTextInSearchTextBox();
 		GS.clickOnSearchButton();
 
 	}

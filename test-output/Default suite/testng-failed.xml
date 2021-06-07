@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.ExtentReportWithTesNG">
+      <class name="TestCases.VerifyGoogleSearchFunctionalityWithTestNG">
         <methods>
+          <include name="TearDown"/>
           <include name="SetUp"/>
           <include name="GoogleSearch"/>
         </methods>
-      </class> <!-- TestCases.ExtentReportWithTesNG -->
+      </class> <!-- TestCases.VerifyGoogleSearchFunctionalityWithTestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

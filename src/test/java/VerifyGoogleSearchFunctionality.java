@@ -25,7 +25,7 @@ public class VerifyGoogleSearchFunctionality {
 		
 		GoogleSearchPage GS = new GoogleSearchPage(driver);
 
-		GS.provideTextInSearchTextBox("Testing");
+		//GS.provideTextInSearchTextBox("Testing");
 		GS.clickOnSearchButton();
 
 	}
